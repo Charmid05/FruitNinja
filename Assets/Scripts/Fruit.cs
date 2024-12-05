@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Fruit : MonoBehaviour
 {
+    [Header("Fruit Settings")]
     [SerializeField] private GameObject whole;
     [SerializeField] private GameObject sliced;
 

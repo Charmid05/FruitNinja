@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Blade : MonoBehaviour
 {
+    [Header("Blade Settings")]
     [SerializeField] private float sliceForce = 5f;
     [SerializeField] private float minSliceVelocity = 0.01f;
 

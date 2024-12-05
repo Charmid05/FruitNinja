@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    [Header("Spawner Settings")]
     [SerializeField] private GameObject[] fruitPrefabs;
     [SerializeField] private GameObject bombPrefab;
 
